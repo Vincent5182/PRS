@@ -1,8 +1,8 @@
 header{
     /* color: white; */
     /* background: lightgreen; */
-    background-image: url('../../images/sky.jpg');
-    min-height: 50vh;
+    background-image: url('../../images/bb.jpg');
+    min-height: 33vh;
     padding-top: 20vh;
     text-align: center;
     position: relative;
@@ -11,19 +11,22 @@ header{
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
+    align-items: center;
+    justify-content: center;
 }
 
-title{
-    color: black;
+.title{
+       background: rgb(73, 112, 184);
+    color: white;
+    padding: 1rem;
 }
-  
+
 header h1{
     font-size: 3rem;
     margin: 0 0 1rem;
 }
 
 header h2{
-    /* font-weight: 400; */
     font-weight: bold;
     font-size: 1.8rem;
     margin: 0 0 1rem;

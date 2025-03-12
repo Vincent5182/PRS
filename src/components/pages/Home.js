@@ -94,11 +94,6 @@ const Home = () => {
   return (
     <React.Fragment>
       <Header />
-      <section  >
-        <div className="bg-container title quote">
-          A Place to DISCOVER, RECOVER & GROW. . .
-        </div>
-      </section>
       <section className="content-container" id="about-us">
         <div >
           <h2>About Us</h2>
@@ -128,6 +123,13 @@ const Home = () => {
           <div >​​</div>
           <div > Peer Recovery Coaches are available for one-on-one appointments Monday through Friday from 8:30 am - 9:00 am and 3:00 pm - 4:00 pm. You may need peer-support, work on a computer project together and/or work on a particular aspect of your wellness and recovery. We are here to listen and offer peer-support! We do not offer counseling or give advice. This is not a clinical counseling session. See or call the Front Desk Receptionist or Peer Recovery Coach to schedule your appointment.</div>
         </div>
+        <section  >
+        <br></br>
+        <br></br>
+        <br></br>
+        <div className="quote">
+          A Place to DISCOVER, RECOVER & GROW. . .
+        </div>
         <section id="programs">
           <br></br>
           <br></br>
@@ -142,6 +144,7 @@ const Home = () => {
             {windowWidth > breakpoint ? doubleClasses() : singleClasses()}
           </div>
         </section>
+      </section>
       </section>
     </React.Fragment>
   )

@@ -6,10 +6,10 @@ const Header = () => {
         <React.Fragment>
              <section  id="home">
             <header>
-                <div className="bg-container title">
-                    <h1>The Wellness Center</h1>
-                    <h2>of San Joaquin County</h2>
-                </div>
+                <div className='title'>
+                <h1>The Wellness Center</h1>
+                <h2>of San Joaquin County</h2>
+                </div>         
             </header>
             </section>
         </React.Fragment>

@@ -1,6 +1,7 @@
 {
   "name": "prs",
-  "version": "0.1.0",
+  "version": "1.0.0",
+  "author": "Vincent Teas",
   "homepage": "https://vincent5182.github.io/PRS/",
   "private": true,
   "dependencies": {

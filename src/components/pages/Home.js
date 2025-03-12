@@ -4,7 +4,7 @@ import './Home.css'
 
 const columns = [
   ['We offer over 20 groups and classes each week, including:'], ['Member Services Include:'],
-  ['​'], , ['​'],
+  ['​'],  ['​'],
   ['☑ Goal Setting'], ['☑ Community Resources and Referrals'],
   ['☑ Learning Your Illness'], ['☑ Computer Lab'],
   ['☑ Personal Growth'], ['☑ Fax Service'],

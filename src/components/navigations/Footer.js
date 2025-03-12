@@ -32,7 +32,7 @@ const MenuBar = () => {
                     Fax line (209) 888-4798
                 </p>
                 <Link to="https://www.gofundme.com/f/supporttwcsjpeerrecoveryservices">
-                    <img width={150} height={80} src={require('./../../images/gofundme.png')} />
+                    <img alt="GoFundMe Logo" width={150} height={80} src={require('./../../images/gofundme.png')} />
                 </Link>
                 <p>Designed by Vincent Teas</p>
             </div>

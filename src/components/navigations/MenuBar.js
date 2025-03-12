@@ -22,6 +22,11 @@ const MenuBar = () => {
                         </HashLink>
                     </li>
                     <li>
+                        <HashLink smooth to={'/#programs'}>
+                           Programs
+                        </HashLink>
+                    </li>
+                    <li>
                         <HashLink smooth to={'/#contact-us'}>
                             Contact Us
                         </HashLink>

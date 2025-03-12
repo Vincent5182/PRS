@@ -1,6 +1,6 @@
 header{
     /* color: white; */
-    background: lightgreen;
+    /* background: lightgreen; */
     background-image: url('../../images/sky.jpg');
     min-height: 50vh;
     padding-top: 20vh;
@@ -23,8 +23,8 @@ header h1{
 }
 
 header h2{
-    font-weight: 300;
-    font-size: 1.5rem;
+    font-weight: 400;
+    font-size: 1.7rem;
     margin: 0 0 1rem;
 }
 

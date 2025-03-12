@@ -1,7 +1,7 @@
 {
   "name": "prs",
   "version": "0.1.0",
-  "homepage": "https://vincent5182.github.io/#home/",
+  "homepage": "https://vincent5182.github.io/PRS/",
   "private": true,
   "dependencies": {
     "react": "^19.0.0",

@@ -16,6 +16,7 @@ function App() {
         <Layout>
           <Routes >
           <Route path={'/'} element={<Home />}></Route>
+          <Route path={'/PRS'} element={<Home />}></Route>
           </Routes >
         </Layout>
       </Router>

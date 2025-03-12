@@ -10,15 +10,19 @@
     margin-top: 30px;
 }
 
+.content-container {
+    margin: 2.5rem auto 2.5rem auto;
+    max-width: 1126px;
+    min-height: 50vh;
+    padding: 10px;
+}
+
+.appointment {
+    padding: 10px;
+    max-width: 1126px;
+    margin: 0 auto 0 auto;
+}
 
 .appointment1 {
     font-weight: bold;
-
-    max-width: 1126px;
-margin: 0 auto 0 auto;
-}
-.appointment2 {
-    max-width: 1126px;
-margin: 0 auto 0 auto;
-
 }

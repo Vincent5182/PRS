@@ -132,6 +132,7 @@ const Home = () => {
           {windowWidth > breakpoint ? doublePoints() : singlePoints()}
           <br></br>
           <br></br>
+          <h2>  More of Our Groups and Classes:</h2>
           <br></br>
           {windowWidth > breakpoint ? doubleClasses() : singleClasses()}
         </div>

@@ -11,8 +11,6 @@
     position: fixed;
     width: 100%;
     z-index: 3;
-    display: flex;
-    justify-content: center;
     font-weight: bold;
 }
   
@@ -20,21 +18,21 @@
     margin: 0;
     padding: 0;
     list-style: none;
-    overflow: hidden;
+    /* overflow: hidden; */
     background: rgb(73, 112, 184);
 }
   
 .header li a {
     display: block;
     padding: 20px 20px;
-
+    /* border-right: 1px solid #f4f4f4; */
     text-decoration: none;
-    color: white;
+    color:white;
 }
   
 .header li a:hover,
 .header .menu-btn:hover {
-    background-color: black;
+    background-color: #f4f4f4;
 }
   
 .header .logo {
@@ -43,7 +41,7 @@
     font: normal 2em 'Cookie';
     padding: 10px 20px;
     text-decoration: none;
-    color: #000;
+    /* color: black; */
 }
   
 /* menu */
@@ -52,11 +50,15 @@
     max-height: 0;
     transition: max-height .2s ease-out;
 }
+
+/* menu */
+.menu {
+justify-items: center;
+}
   
 /* menu icon */  
 .header .menu-icon {
     cursor: pointer;
-    display: inline-block;
     float: right;
     padding: 28px 20px;
     position: relative;
@@ -95,9 +97,9 @@
 .header .menu-btn {
     display: none;
 }
-  
+/* height of menu */
 .header .menu-btn:checked ~ .menu {
-    max-height: 240px;
+    max-height: 320px;
 }
   
 .header .menu-btn:checked ~ .menu-icon .navicon {

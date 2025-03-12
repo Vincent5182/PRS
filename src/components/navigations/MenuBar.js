@@ -1,7 +1,5 @@
 import React from 'react'
 import { HashLink } from 'react-router-hash-link';
-
-import { Link } from "react-router-dom"
 import './MenuBar.css'
 
 const MenuBar = () => {
@@ -32,10 +30,10 @@ const MenuBar = () => {
                         </HashLink>
                     </li>
                     <li>
-                    <Link to="https://www.gofundme.com/f/supporttwcsjpeerrecoveryservices">
-                   GoFundMe
-                </Link>
-                </li>
+                        <HashLink smooth to={'https://www.gofundme.com/f/supporttwcsjpeerrecoveryservices'}>
+                        GoFundMe
+                        </HashLink>
+                    </li>
                 </ul>
             </div>
         </nav>

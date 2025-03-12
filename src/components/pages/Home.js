@@ -99,7 +99,7 @@ const Home = () => {
           A Place to DISCOVER, RECOVER & GROW. . .
         </div>
       </section>
-      <section className="content-container" id="about-us" >
+      <section className="content-container" id="about-us">
         <div >
           <h2>About Us</h2>
           <p>
@@ -126,7 +126,7 @@ const Home = () => {
         <br></br>
         <br></br>
         <br></br>
-        <div className="container">
+        <div>
           {windowWidth > breakpoint ? doublePoints() : singlePoints()}
           <br></br>
           <br></br>
@@ -136,11 +136,11 @@ const Home = () => {
         </div>
         </section>
       </section>
-      <div className="appointment">
-        <div className="appointment1">  ONE-ON-ONE APPOINTMENTS</div>
+      {/* <div className="appointment"> */}
+        <div className="appointment1">ONE-ON-ONE APPOINTMENTS</div>
         <div >​​</div>
         <div className="appointment2"> Peer Recovery Coaches are available for one-on-one appointments Monday through Friday from 8:30 am - 9:00 am and 3:00 pm - 4:00 pm. You may need peer-support, work on a computer project together and/or work on a particular aspect of your wellness and recovery. We are here to listen and offer peer-support! We do not offer counseling or give advice. This is not a clinical counseling session. See or call the Front Desk Receptionist or Peer Recovery Coach to schedule your appointment.</div>
-      </div>
+      {/* </div> */}
       <br></br>
     </React.Fragment>
   )

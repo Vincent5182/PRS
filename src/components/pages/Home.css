@@ -10,27 +10,15 @@
     margin-top: 30px;
 }
 
-.appointment {
-    /* background: rgb(73, 112, 184); */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding: 2rem;
-    margin-top: 30px;
-}
 
 .appointment1 {
-    /* color: white; */
-    display: flex;
-    max-width: 1126px;
     font-weight: bold;
-    /* font-size: 1.2rem; */
-}
 
-.appointment2 {
-    /* color: white; */
-    display: flex;
     max-width: 1126px;
-    /* font-size: 1.1rem; */
+margin: 0 auto 0 auto;
+}
+.appointment2 {
+    max-width: 1126px;
+margin: 0 auto 0 auto;
+
 }

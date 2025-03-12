@@ -1,4 +1,5 @@
 import React from 'react'
+import { HashLink, NavHashLink } from 'react-router-hash-link';
 
 import './MenuBar.css'
 
@@ -11,9 +12,19 @@ const MenuBar = () => {
                 <label className="menu-icon" htmlFor="menu-btn"><span className="navicon"></span></label>
 
                 <ul className="menu">
-                    <li><a href="/">Home</a></li>
+                <li>
+ <HashLink smooth to={'/#home'}>
+           Home
+            </HashLink>
+          </li>
+          <li>
+            <HashLink smooth to={'/#about-us'}>
+           About Us
+            </HashLink>
+          </li>
+                    {/* <li><a href="/">Home</a></li>
                     <li><a href="/AboutUs">About Us</a></li>
-                    <li><a href="/ContactUs">Contact Us</a></li>                
+                    <li><a href="/ContactUs">Contact Us</a></li>                 */}
                 </ul>
             </div>
         </nav>

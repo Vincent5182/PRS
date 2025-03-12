@@ -1,5 +1,5 @@
 .footer {
-    background: #37387a;
+    background: rgb(73, 112, 184);
     color: #fff;
     padding: 2rem 0;
     text-align: center;
@@ -7,24 +7,3 @@
     color: rgba(white,.4);
 }
 
-.footer ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-.footer li {
-    display: inline-block;
-}
-
-.footer a {
-    display: block;
-    padding: .4rem .7rem;
-    font-size: .9rem;
-    text-decoration: none;
-    color: rgba(255, 255, 255, 1);
-}
-
-.footer a:hover {
-    color: rgb(214, 214, 214);
-}

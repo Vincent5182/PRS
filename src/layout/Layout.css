@@ -56,17 +56,7 @@ tr, td {
 }
 
 
-quote{
-	background: rgb(112, 205, 205);
-	display: flex;
-	font-weight: bold;
-    justify-content: center;
-    flex-wrap: wrap;
-	font-size: 1.5rem;
-    padding: 2rem;
-	margin-top: 30px;
-	 
-}
+
 
 fieldset {
 	border: medium none !important;

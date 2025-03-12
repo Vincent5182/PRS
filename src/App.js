@@ -11,10 +11,12 @@ import AboutUs from './components/pages/AboutUs'
 import ContactUs from './components/pages/ContactUs'
 import { HashLinkPage } from './components/pages/HashLinkPage';
 import './App.css';
-
+  
 function App() {
   return (
+    // class for header
     <div className="body-wrap">
+
       <Router>
         <Layout>
           <Routes >

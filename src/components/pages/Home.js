@@ -25,6 +25,15 @@ const Home = () => {
           </li>
         </ul>
       </nav> */}
+         <section >
+         <div className="bg-container title">
+<quote>
+     A Place to DISCOVER, RECOVER & GROW. . .
+         </quote>
+         </div>
+         </section>
+
+
         <section className="content-container" id="about-us">
         <div > 
                     <h2>About Us</h2>

@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/PRS/static/css/main.12bea06c.css",
-    "main.js": "/PRS/static/js/main.a97bd6b4.js",
+    "main.js": "/PRS/static/js/main.ec878f22.js",
     "static/media/sky.jpg": "/PRS/static/media/sky.734beb5f0dd826c35f77.jpg",
     "static/media/gofundme.png": "/PRS/static/media/gofundme.3523f381f4773d83f811.png",
     "index.html": "/PRS/index.html",
     "main.12bea06c.css.map": "/PRS/static/css/main.12bea06c.css.map",
-    "main.a97bd6b4.js.map": "/PRS/static/js/main.a97bd6b4.js.map"
+    "main.ec878f22.js.map": "/PRS/static/js/main.ec878f22.js.map"
   },
   "entrypoints": [
     "static/css/main.12bea06c.css",
-    "static/js/main.a97bd6b4.js"
+    "static/js/main.ec878f22.js"
   ]
 }

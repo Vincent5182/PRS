@@ -25,7 +25,7 @@ const columns2 = [
   ['☑ Fax Service'],
   ['☑ Transportation for Food Bank & Shopping'],
   ['☑ Mobile Farmers\' Market (monthly)'],
-['☑ Self-Help Library'],
+  ['☑ Self-Help Library'],
   ['☑ Telephone Use']
 ];
 
@@ -45,8 +45,6 @@ const singlePoints = () => {
   </div>)
 }
 
-
-
 const Home = () => {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
   const breakpoint = 768;
@@ -55,14 +53,11 @@ const Home = () => {
     const handleResize = () => {
       setWindowWidth(window.innerWidth);
     };
-
     window.addEventListener('resize', handleResize);
-
     return () => {
       window.removeEventListener('resize', handleResize);
     };
   }, []);
-
 
   return (
     <React.Fragment>
@@ -100,21 +95,9 @@ const Home = () => {
         <br></br>
         <br></br>
         <br></br>
-
-
-
         <div class="container">
           {windowWidth > breakpoint ? doublePoints() : singlePoints()}
-
           <br></br>
-          {/* <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr 1fr", columnGap: "30px"}}>
-  {columns2.map((col, i) => {
-    console.log(col + i)
-    return <div>{col}</div>
-  })}
-</div> */}
-
-
         </div>
       </section>
       <appointment>

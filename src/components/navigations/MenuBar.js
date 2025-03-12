@@ -10,28 +10,40 @@ const MenuBar = () => {
                 <label className="menu-icon" htmlFor="menu-btn"><span className="navicon"></span></label>
                 <ul className="menu">
                     <li>
-                        <HashLink smooth to={'/#home'}>
+                        <HashLink onClick={() => {
+                            const checkBox = document.getElementById("menu-btn");
+                            checkBox.checked = false
+                        }} smooth to={'/#home'}>
                             Home
                         </HashLink>
                     </li>
                     <li>
-                        <HashLink smooth to={'/#about-us'}>
+                        <HashLink onClick={() => {
+                            const checkBox = document.getElementById("menu-btn");
+                            checkBox.checked = false
+                        }} smooth to={'/#about-us'}>
                             About Us
                         </HashLink>
                     </li>
                     <li>
-                        <HashLink smooth to={'/#programs'}>
-                           Programs
+                        <HashLink onClick={() => {
+                            const checkBox = document.getElementById("menu-btn");
+                            checkBox.checked = false
+                        }} smooth to={'/#programs'}>
+                            Programs
                         </HashLink>
                     </li>
                     <li>
-                        <HashLink smooth to={'/#contact-us'}>
+                        <HashLink onClick={() => {
+                            const checkBox = document.getElementById("menu-btn");
+                            checkBox.checked = false
+                        }} smooth to={'/#contact-us'}>
                             Contact Us
                         </HashLink>
                     </li>
                     <li>
                         <HashLink smooth to={'https://www.gofundme.com/f/supporttwcsjpeerrecoveryservices'}>
-                        GoFundMe
+                            GoFundMe
                         </HashLink>
                     </li>
                 </ul>
